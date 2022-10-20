@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+body{
+            background: linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab,#eeee22);
+            background-size: 400% 400%;
+            animation: gradient 6s ease infinite;
+            height: 100vh; 
+        }
+        @keyframes gradient{
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+body {
+	
+  box-sizing: border-box;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  
+}
+.logo {
+  width:300px;
+  height:85px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-3 {
+	margin:5px;
+	margin-left:5px;
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+.column-1 {
+	margin-top:100px;
+	float: left;
+  	width: 25%;
+  	padding: 0 10px;
+  
+}
+.column-2{
+	margin-top:50px;
+	margin-bottom:20px;
+	float: left;
+  	width: 25%;
+  	padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-1 {margin: 0 10px;}
+.row-2 {margin: 0 10px;}
+
+/* Clear floats after the columns */
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column-1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 200px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  	border-radius:10px;
+  	height:300px;
+}
+.acc{
+width:200px;
+height:150px;
+}
+
+
